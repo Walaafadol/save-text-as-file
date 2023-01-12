@@ -1,0 +1,62 @@
+body {
+  background-color: #17a2b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui;
+}
+.container {
+  border: 1px solid #eee;
+  background-color: #eee;
+  padding: 30px 20px;
+}
+textarea {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  border: 1px solid rgb(136, 135, 135);
+  resize: none;
+  padding: 12px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.file-name,
+.save-as {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 0 0 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.file-name input,
+select {
+  border: none;
+  outline: none;
+  height: 30px;
+  border: 1px solid rgb(136, 135, 135);
+  width: 190px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+input[type="button"] {
+  background-color: #17a2b8;
+  color: white;
+  width: 400px;
+  border: none;
+  height: 40px;
+  border-radius: 7px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea id="text"></textarea>
+      <div class="input">
+        <div class="file-name">
+          <label>file name</label>
+          <input type="text" id="filename" />
+        </div>
+        <div class="save-as">
+          <label>save as</label>
+          <select id="selected">
+            <option value="text/html">HTML file(.html)</option>
+            <option value="text/javascript">JS File(.js)</option>
+            <option value="application/vnd.ms-powerpoint">
+              PPT File(.ppt)
+            </option>
+            <option value="image/svg+xml">SVG File(.svg)</option>
+            <option value="text/plain">text file (.txt)</option>
+          </select>
+        </div>
+      </div>
+      <input type="button" id="saved" value="save as" />
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
